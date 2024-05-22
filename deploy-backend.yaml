@@ -4,7 +4,7 @@ metadata:
   name: foodadvisor-backend-deploy
   namespace: strapi-prod
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: foodadvisor-backend
